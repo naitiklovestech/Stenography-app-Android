@@ -85,7 +85,8 @@
                 android:text="Encrypt"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textColor="#EDC9AE"/>
+                android:textColor="#EDC9AE"
+                android:background="@drawable/buttonoutline"/>
 
         </LinearLayout>
 
@@ -150,7 +151,8 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#EDC9AE"
-                android:onClick="cp2"/>
+                android:onClick="cp2"
+                android:background="@drawable/buttonoutline"/>
         </LinearLayout>
 
     </LinearLayout>
