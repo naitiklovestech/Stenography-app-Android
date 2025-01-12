@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView test = new ImageView(this);
         test.setBackgroundResource(images);
         vf.addView(test);
-        vf.setFlipInterval(3000);
+        vf.setFlipInterval(1500);
         vf.setAutoStart(true);
         vf.setInAnimation(this, android.R.anim.slide_in_left);
         vf.setOutAnimation(this, android.R.anim.slide_out_right);

@@ -52,7 +52,7 @@ public class Encoder extends AppCompatActivity {
         if(!data.isEmpty()){
             ClipData temp = ClipData.newPlainText("text", data);
             cpb.setPrimaryClip(temp);
-            Toast.makeText(this,"Copied", Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Copied \nImage Encoded", Toast.LENGTH_LONG).show();
 
         }
     }

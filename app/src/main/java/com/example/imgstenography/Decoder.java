@@ -36,6 +36,7 @@ public class Decoder extends AppCompatActivity {
         etdec = findViewById(R.id.etdec);
         dectv = findViewById(R.id.dectv);
         cplboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        Toast.makeText(this, "Failed to Load Image Linker", Toast.LENGTH_SHORT).show();
 
     }
 
