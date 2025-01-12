@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Image Stenographer"
+                android:text="Steganographer"
                 android:textColor="#EDC9AE"
                 android:textSize="40sp"
                 android:textStyle="bold">
